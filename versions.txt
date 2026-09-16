@@ -1,0 +1,23 @@
+Ubuntu:
+Ubuntu 24.04.x LTS
+
+Architecture:
+x86_64
+
+Node.js:
+v24.18.0
+
+npm:
+<your installed npm version>
+
+OpenClaw:
+2026.7.1-2
+
+Python:
+Python 3.12.x
+
+Model Provider:
+TAMUS AI API
+
+OpenClaw Model:
+tamus/protected.gpt-4o
