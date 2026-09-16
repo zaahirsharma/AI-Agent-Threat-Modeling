@@ -1,0 +1,76 @@
+Skills Status Check
+Agent: main
+
+Total: 54
+\u2713 Eligible: 16
+\u2713 Visible to model: 16
+\u2713 Available as command: 15
+Disabled: 0
+Blocked by allowlist: 0
+Excluded by agent allowlist: 0
+\u2717 Missing requirements: 38
+
+What this means:
+  Eligible: installed and requirements pass; the agent may still exclude it.
+  Visible to model: the agent can see the skill instructions during normal chat.
+  Available as command: people, scripts, or cron jobs can call the skill explicitly.
+
+Ready and visible to model:
+  browser-automation
+  \U0001f5bc\ufe0f canvas
+  clawhub
+  \U0001f9ed diagram-maker
+  healthcheck
+  \U0001f5bc\ufe0f meme-maker
+  node-connect
+  \U0001fab2 node-inspect-debugger
+  \U0001f4dd notion
+  python-debugpy
+  safe-marker
+  skill-creator
+  \U0001f9ea spike
+  \U0001fa9d taskflow
+  \U0001f4e5 taskflow-inbox-triage
+  \u2614 weather
+
+Missing requirements:
+  \U0001f510 1password (bins: op)
+  \U0001f4dd apple-notes (bins: memo; os: darwin)
+  \u23f0 apple-reminders (bins: remindctl; os: darwin)
+  \U0001f43b bear-notes (bins: grizzly; os: darwin)
+  \U0001f4f0 blogwatcher (bins: blogwatcher)
+  \U0001fad0 blucli (bins: blu)
+  \U0001f4f8 camsnap (bins: camsnap)
+  \U0001f9e9 coding-agent (anyBins: claude, codex, opencode; config: skills.entries.coding-agent.enabled)
+  \U0001f6cc eightctl (bins: eightctl)
+  \u2728 gemini (bins: gemini)
+  gh-issues (bins: gh)
+  \U0001f9f2 gifgrep (bins: gifgrep)
+  \U0001f419 github (bins: gh)
+  \U0001f3ae gog (bins: gog)
+  \U0001f4cd goplaces (bins: goplaces; env: GOOGLE_PLACES_API_KEY)
+  \U0001f4e7 himalaya (bins: himalaya)
+  \U0001f4e6 mcporter (bins: mcporter)
+  \U0001f4ca model-usage (bins: codexbar; os: darwin)
+  \U0001f4c4 nano-pdf (bins: nano-pdf)
+  \U0001f48e obsidian (bins: obsidian)
+  \U0001f3a4 openai-whisper (bins: whisper)
+  \U0001f310 openai-whisper-api (env: OPENAI_API_KEY)
+  \U0001f4a1 openhue (bins: openhue)
+  \U0001f9ff oracle (bins: oracle)
+  \U0001f6f5 ordercli (bins: ordercli)
+  \U0001f440 peekaboo (bins: peekaboo; os: darwin)
+  \U0001f50a sag (bins: sag; env: ELEVENLABS_API_KEY)
+  \U0001f4dc session-logs (bins: rg)
+  \U0001f509 sherpa-onnx-tts (env: SHERPA_ONNX_RUNTIME_DIR, SHERPA_ONNX_MODEL_DIR)
+  \U0001f30a songsee (bins: songsee)
+  \U0001f50a sonoscli (bins: sonos)
+  \U0001f3b5 spotify-player (anyBins: spogo, spotify_player)
+  \U0001f9fe summarize (bins: summarize)
+  \u2705 things-mac (bins: things; os: darwin)
+  \U0001f9f5 tmux (bins: tmux)
+  \U0001f4cb trello (env: TRELLO_API_KEY, TRELLO_TOKEN)
+  \U0001f3ac video-frames (bins: ffmpeg)
+  \U0001f426 xurl (bins: xurl)
+
+Tip: use `openclaw skills search`, `openclaw skills install`, and `openclaw skills update` for ClawHub-backed skills.
