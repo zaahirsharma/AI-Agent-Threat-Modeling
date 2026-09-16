@@ -1,0 +1,4 @@
+2026-09-16T00:32:03.703Z	agent_run	succeeded	main	a745a4c2-01f0-43e…	agent.run.finished
+2026-09-16T00:31:59.707Z	tool_action	succeeded	main	a745a4c2-01f0-43e…	tool.action.finished:web_fetch
+2026-09-16T00:31:58.035Z	tool_action	started	main	a745a4c2-01f0-43e…	tool.action.started:web_fetch
+2026-09-16T00:31:54.925Z	agent_run	started	main	a745a4c2-01f0-43e…	agent.run.started

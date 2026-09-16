@@ -1,0 +1,3 @@
+Coffee Lab Status
+Beans remaining: 42 bags
+Espresso machine: operational
